@@ -16,29 +16,29 @@ Use `faiconselect` for type. For Example;
 
 ```php
 $cmb->add_field( array(
-	    'name' => __( 'Select Font Awesome Icon', 'cmb' ),
-	    'id'   => $prefix . 'iconselect',
-	    'desc' => 'Select Font Awesome icon',
-	    'type' => 'faiconselect',
-	    'options' => array(
-	    	'fa fa-facebook' => 'fa fa-facebook',
-	    	'fa fa-500px'  	 => 'fa fa-500px',
-	    	'fa fa-twitter'	 => 'fa fa-twitter'
-	    )
-	) );
+    'name' => __( 'Select Font Awesome Icon', 'cmb' ),
+    'id'   => $prefix . 'iconselect',
+    'desc' => 'Select Font Awesome icon',
+    'type' => 'faiconselect',
+    'options' => array(
+	'fa fa-facebook' => 'fa fa-facebook',
+	'fa fa-500px'  	 => 'fa fa-500px',
+	'fa fa-twitter'	 => 'fa fa-twitter'
+    )
+) );
   ```
   After that jQuery Font Picker plugin handle the select. 
   
   Aslo you can use predefined array for Font Awesome. I created a function with this addon to use in `options_cb`. Function called as `returnFaPre`.
   
-  ```php
-  	$mmetabox->add_field( array(
-	    'name' => __( 'Select Font Awesome Icon', 'cmb' ),
-	    'id'   => $prefix . 'iconselect',
-	    'desc' => 'Select Font Awesome icon',
-	    'type' => 'faiconselect',
-	    'options_cb' => 'returnFaPre'
-	) );
+```php
+$cmb->add_field( array(
+    'name' => __( 'Select Font Awesome Icon', 'cmb' ),
+    'id'   => $prefix . 'iconselect',
+    'desc' => 'Select Font Awesome icon',
+    'type' => 'faiconselect',
+    'options_cb' => 'returnFaPre'
+) );
   ```
   That's All for now :) Contributions are welcome
   
