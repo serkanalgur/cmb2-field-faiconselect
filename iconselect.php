@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: CMB2 Field Type : faiconselect
-Plugin URI: #
+Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 GitHub Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 Description: Font Awesome icon selector for CMB2
 Version: 1.0
