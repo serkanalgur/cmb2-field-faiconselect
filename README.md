@@ -1,4 +1,5 @@
-# Font Awesome Icon Selector for CMB2
+# CMB2 Field Type: Font Awesome
+#### Font Awesome Icon Selector for CMB2
 
 ## Description
 Font Awesome icon selector for powerful custom metabox generator [CMB2](https://github.com/WebDevStudios/CMB2 "Custom Metaboxes and Fields for WordPress 2")
