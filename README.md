@@ -10,7 +10,7 @@ You can use as field type in CMB2 function file. Add a new field, set type to `f
 
 ## Usage
 
-include `iconselect.php` to your cmb2 function file. (I will release this add-on as WordPress plugin soon)
+include `iconselect.php` to your cmb2 function file. Alternatively download this repo and put files into `wp-content/plugins/` directory. When you enable plugin, you can use field type in CMB2.
 
 Use `faiconselect` for type. For Example;
 
