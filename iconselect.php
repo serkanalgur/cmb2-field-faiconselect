@@ -14,7 +14,7 @@ License: GPLv2+
  * Class IConSelectFA
 */
 
-class IConSelectFA 
+class CMBS_SerkanA_Plugin_IConSelectFA 
 {
 	
 	const VERSION = '1.0';
@@ -39,9 +39,9 @@ class IConSelectFA
 
 	}
 
-	public function setup_my_cssjs(){
-		$file = __DIR__; 
-		$asset_path = str_replace( WP_CONTENT_DIR, WP_CONTENT_URL, $file );
+	public function Sesetup_my_cssjs(){
+		$asset_path = apply_filters( 'sa_cmb2_field_faiconselect_asset_path', plugins_url( '', __FILE__  ) );
+
 
 		wp_enqueue_style( 'fontawesome', $asset_path.'/css/faws/css/font-awesome.min.css', array('jqueryfontselector'), self::VERSION );
 		wp_enqueue_style( 'jqueryfontselectormain', $asset_path.'/css/jquery.fonticonpicker.min.css', array(), self::VERSION );
@@ -51,9 +51,9 @@ class IConSelectFA
 	}
 }
 
-	function returnFaPre(){
+	function returnRayFaPre(){
 		include('predefined-array-fontawesome.php');
 		return $fontAwesome;
 	}
 
-$iconSelectF = new IConSelectFA();
+$iconSelectF = new CMBS_SerkanA_Plugin_IConSelectFA();
