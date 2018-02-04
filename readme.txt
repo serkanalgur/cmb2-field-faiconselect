@@ -16,6 +16,8 @@ Font Awesome icon selector for powerful custom metabox generator [CMB2](https://
 
 You can use as field type in CMB2 function file. Add a new field, set type to `faiconselect` and add font awesome icons to options (look Usage for examples). Plugin uses [jQuery Font Picker](https://codeb.it/fonticonpicker/) for creating a icon selector. 
 
+Detailed instructions on [Github ](https://github.com/serkanalgur/cmb2-field-faiconselect)
+
 == Installation ==
 
 1. Upload `cmb2fieldtypefontawesome` folder to the `/wp-content/plugins/` directory
