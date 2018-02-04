@@ -25,7 +25,7 @@ class CMBS_SerkanA_Plugin_IConSelectFA
 	}
 
 	public function render_faiconselect($field, $field_escaped_value, $field_object_id, $field_object_type, $field_type_object){
-		$this->setup_my_cssjs();
+		$this->Sesetup_my_cssjs();
 
 		if ( version_compare( CMB2_VERSION, '2.2.2', '>=' ) ) {
 			$field_type_object->type = new CMB2_Type_Select( $field_type_object );
