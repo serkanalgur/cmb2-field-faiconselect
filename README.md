@@ -30,7 +30,7 @@ $cmb->add_field( array(
   ```
   After that jQuery Font Picker plugin handle the select. 
   
-  Aslo you can use predefined array for Font Awesome. I created a function with this addon to use in `options_cb`. Function called as `returnFaPre`.
+  Aslo you can use predefined array for Font Awesome. I created a function with this addon to use in `options_cb`. Function called as `returnRayFaPre`.
   
 ```php
 $cmb->add_field( array(
@@ -38,7 +38,7 @@ $cmb->add_field( array(
     'id'   => $prefix . 'iconselect',
     'desc' => 'Select Font Awesome icon',
     'type' => 'faiconselect',
-    'options_cb' => 'returnFaPre'
+    'options_cb' => 'returnRayFaPre'
 ) );
   ```
   That's All for now :) Contributions are welcome
