@@ -11,7 +11,9 @@ You can use as field type in CMB2 function file. Add a new field, set type to `f
 
 ## Usage
 
-include `iconselect.php` to your cmb2 function file. Alternatively download this repo and put files into `wp-content/plugins/` directory. When you enable plugin, you can use field type in CMB2.
+Download this repo and put files into `wp-content/plugins/` directory. When you enable plugin, you can use field type in CMB2.
+
+Alternatively you can search `CMB2 Field Type: Font Awesome` on WordPress plugin directory.
 
 Use `faiconselect` for type. For Example;
 
