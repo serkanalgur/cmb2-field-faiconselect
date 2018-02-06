@@ -5,7 +5,7 @@ Tags: font-awesome,cmb2,plugins,font awesome
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.6
-Tested up to: 4.9.2
+Tested up to: 4.9.3
 Stable tag: trunk
 
 This plugin is minified version of Auto Attachments. Supported attachment types: Word, Excel, Pdf, PowerPoint, odf, ods, zip, rar, tar
