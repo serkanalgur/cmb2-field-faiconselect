@@ -8,7 +8,7 @@ Requires at least: 3.6
 Tested up to: 4.9.3
 Stable tag: trunk
 
-This plugin is minified version of Auto Attachments. Supported attachment types: Word, Excel, Pdf, PowerPoint, odf, ods, zip, rar, tar
+Font Awesome icon selector for powerful custom metabox generator CMB2
 
 == Description ==
 
@@ -16,11 +16,26 @@ Font Awesome icon selector for powerful custom metabox generator [CMB2](https://
 
 You can use as field type in CMB2 function file. Add a new field, set type to `faiconselect` and add font awesome icons to options (look Usage for examples). Plugin uses [jQuery Font Picker](https://codeb.it/fonticonpicker/) for creating a icon selector. 
 
+== Sample Usage ==
 Detailed instructions on [Github ](https://github.com/serkanalgur/cmb2-field-faiconselect)
+
+`
+$cmb->add_field( array(
+    'name' => __( 'Select Font Awesome Icon', 'cmb' ),
+    'id'   => $prefix . 'iconselect',
+    'desc' => 'Select Font Awesome icon',
+    'type' => 'faiconselect',
+    'options' => array(
+	'fa fa-facebook' => 'fa fa-facebook',
+	'fa fa-500px'  	 => 'fa fa-500px',
+	'fa fa-twitter'	 => 'fa fa-twitter'
+    )
+) );
+`
 
 == Installation ==
 
-1. Upload `cmb2fieldtypefontawesome` folder to the `/wp-content/plugins/` directory
+1. Upload `cmb2-field-type-font-awesome` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Screenshots ==
