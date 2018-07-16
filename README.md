@@ -8,6 +8,10 @@ You can use as field type in CMB2 function file. Add a new field, set type to `f
 
 Plugin uses Font Awesome 4.7.0 for icons and selector.
 
+### WordPress Plugin
+You can download this plugin also here : [CMB2 Field Type: Font Awesome](https://wordpress.org/plugins/cmb2-field-type-font-awesome/)
+or you can search as `CMB2 Field Type: Font Awesome` on your plugin install page.
+
 ### ScreenShot
 ![Image](screenshot-1.png?raw=true)
 
