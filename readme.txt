@@ -14,7 +14,7 @@ Font Awesome icon selector for powerful custom metabox generator CMB2
 
 Font Awesome icon selector for powerful custom metabox generator [CMB2](https://github.com/WebDevStudios/CMB2 "Custom Metaboxes and Fields for WordPress 2")
 
-You can use as field type in CMB2 function file. Add a new field, set type to `faiconselect` and add font awesome icons to options (look Usage for examples). Plugin uses [jQuery Font Picker](https://codeb.it/fonticonpicker/) for creating a icon selector. 
+You can use as field type in CMB2 function file. Add a new field, set type to `faiconselect` and add font awesome icons to options (look Usage for examples). Plugin uses [jQuery Font Picker](https://codeb.it/fonticonpicker/) for creating a icon selector.
 
 == Sample Usage ==
 Detailed instructions on [Github ](https://github.com/serkanalgur/cmb2-field-faiconselect)
@@ -43,6 +43,10 @@ $cmb->add_field( array(
 1. Selector
 
 == Changelog ==
+
+= Version 1.2 =
+* Version corrections and tests
+* fontawesome & mainjs definition fix
 
 = Version 1.0 =
 * Released

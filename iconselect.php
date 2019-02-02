@@ -4,7 +4,7 @@ Plugin Name: CMB2 Field Type: Font Awesome
 Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 GitHub Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 Description: Font Awesome icon selector for CMB2
-Version: 1.1
+Version: 1.2
 Author: Serkan Algur
 Author URI: https://wpadami.com/
 License: GPLv2+
@@ -14,10 +14,10 @@ License: GPLv2+
  * Class IConSelectFA
 */
 
-class CMBS_SerkanA_Plugin_IConSelectFA 
+class CMBS_SerkanA_Plugin_IConSelectFA
 {
-	
-	const VERSION = '1.0';
+
+	const VERSION = '1.2';
 
 	public function __construct()
 	{
@@ -43,11 +43,11 @@ class CMBS_SerkanA_Plugin_IConSelectFA
 		$asset_path = apply_filters( 'sa_cmb2_field_faiconselect_asset_path', plugins_url( '', __FILE__  ) );
 
 
-		wp_enqueue_style( 'fontawesome', $asset_path.'/css/faws/css/font-awesome.min.css', array('jqueryfontselector'), self::VERSION );
+		wp_enqueue_style( 'fontawesomeiselect', $asset_path.'/css/faws/css/font-awesome.min.css', array('jqueryfontselector'), self::VERSION );
 		wp_enqueue_style( 'jqueryfontselectormain', $asset_path.'/css/css/base/jquery.fonticonpicker.min.css', array(), self::VERSION );
 		wp_enqueue_style( 'jqueryfontselector', $asset_path.'/css/css/themes/grey-theme/jquery.fonticonpicker.grey.min.css', array(), self::VERSION );
 		wp_enqueue_script('jqueryfontselector', $asset_path.'/js/jquery.fonticonpicker.min.js', array('jquery'), self::VERSION, true);
-		wp_enqueue_script('mainjs', $asset_path.'/js/main.js', array('jqueryfontselector'), self::VERSION, true);
+		wp_enqueue_script('mainjsiselect', $asset_path.'/js/main.js', array('jqueryfontselector'), self::VERSION, true);
 	}
 }
 
