@@ -7,7 +7,7 @@ Description: Font Awesome icon selector for CMB2
 Version: 1.2
 Author: Serkan Algur
 Author URI: https://wpadami.com/
-License: GPLv2+
+License: GPLv3
 */
 
 /**
