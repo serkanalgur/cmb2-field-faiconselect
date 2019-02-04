@@ -14,6 +14,7 @@ or you can search as `CMB2 Field Type: Font Awesome` on your plugin install page
 
 ### ScreenShot
 ![Image](screenshot-1.png?raw=true)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_shield)
 
 ## Usage
 
@@ -51,3 +52,7 @@ $cmb->add_field( array(
   ```
   That's All for now :) Contributions are welcome
   
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_large)
