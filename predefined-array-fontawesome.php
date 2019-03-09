@@ -2027,5 +2027,5 @@ $fa5all = array(
 	'fab fa-yoast',
 	'fab fa-youtube',
 	'fab fa-youtube-square',
-	'fab fa-zhihu'
+	'fab fa-zhihu',
 );

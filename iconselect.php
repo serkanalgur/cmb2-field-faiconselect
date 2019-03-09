@@ -15,14 +15,14 @@ License: GPLv3
  * Class IConSelectFA
  */
 
-lass CMBS_SerkanA_Plugin_IConSelectFA {
+class CMBS_SerkanA_Plugin_IConSelectFA {
 
 
 	const VERSION = '1.3-beta';
 
 	public function __construct() {
 		add_filter( 'cmb2_render_faiconselect', array( $this, 'render_faiconselect' ), 10, 5 );
-		add_filter( 'style_loader_tag', array( $this, 'add_font_awesome_5_cdn_attributes' ), 10, 2 );
+		add_filter( 'style_loader_tag', array( $this, 'sa_add_font_awesome_5_cdn_attributes' ), 10, 2 );
 	}
 
 	public function render_faiconselect( $field, $field_escaped_value, $field_object_id, $field_object_type, $field_type_object ) {
@@ -45,9 +45,10 @@ lass CMBS_SerkanA_Plugin_IConSelectFA {
 	public function Sesetup_my_cssjs( $field ) {
 		$asset_path = apply_filters( 'sa_cmb2_field_faiconselect_asset_path', plugins_url( '', __FILE__ ) );
 
-		$font_args = $field->args( 'attributes', 'fatype' );
+		$font_args        = $field->args( 'attributes', 'fatype' );
+		$font_awesome_ver = $field->args( 'attributes', 'faver' );
 
-		if ( $field->args( 'attributes', 'faver' ) === 5 ) {
+		if ( $font_awesome_ver && $font_awesome_ver === 5 ) {
 			wp_enqueue_style( 'fontawesome5', 'https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css', array( 'jqueryfontselector' ), self::VERSION, 'all' );
 			wp_add_inline_style( 'fontawesome5', '.fip-icons-container i.fas{font-family: "Font Awesome 5 Free" !important;} .selected-icon i.fas{font-family: "Font Awesome 5 Free" !important;}' );
 			wp_enqueue_style( 'fontawesome5solid', 'https://use.fontawesome.com/releases/v5.7.2/css/solid.css', array( 'jqueryfontselector' ), self::VERSION, 'all' );
@@ -62,7 +63,7 @@ lass CMBS_SerkanA_Plugin_IConSelectFA {
 			wp_enqueue_script( 'mainjsiselect', $asset_path . '/js/main.js', array( 'jqueryfontselector' ), self::VERSION, true );
 	}
 
-	public function add_font_awesome_5_cdn_attributes( $html, $handle ) {
+	public function sa_add_font_awesome_5_cdn_attributes( $html, $handle ) {
 		if ( 'fontawesome5' === $handle ) {
 			return str_replace( "media='all'", "media='all' integrity='sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+' crossorigin='anonymous'", $html );
 		} elseif ( 'fontawesome5solid' === $handle ) {
@@ -78,7 +79,6 @@ lass CMBS_SerkanA_Plugin_IConSelectFA {
 function returnRayFaPre() {
 	include 'predefined-array-fontawesome.php';
 	return $fontAwesome;
-	// return $fa5all;
 }
 
 function returnRayFapsa() {
