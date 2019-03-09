@@ -37,10 +37,10 @@ $cmb->add_field( array(
     )
 ) );
   ```
-  After that jQuery Font Picker plugin handle the select. 
-  
+  After that jQuery Font Picker plugin handle the select.
+
   Aslo you can use predefined array for Font Awesome. I created a function with this addon to use in `options_cb`. Function called as `returnRayFaPre`.
-  
+
 ```php
 $cmb->add_field( array(
     'name' => __( 'Select Font Awesome Icon', 'cmb' ),
@@ -49,9 +49,26 @@ $cmb->add_field( array(
     'type' => 'faiconselect',
     'options_cb' => 'returnRayFaPre'
 ) );
-  ```
-  That's All for now :) Contributions are welcome
-  
+```
+That's All for now :) Contributions are welcome
+
+## Usage From Template Folder
+
+Download and place folder into your theme folder. You need to create a function for fixing asset path issue. Fore example;
+
+```php
+// Fix for $asset_path issue
+function asset_path_faiconselect() {
+    return get_template_directory_uri() . '/path/to/folder'; //Change to correct path.
+}
+
+add_filter( 'sa_cmb2_field_faiconselect_asset_path', 'asset_path_faiconselect' );
+
+//Now call faiconselect
+require get_template_directory() . '/path/to/folder/iconselect.php'; //Again Change to correct path.
+```
+
+This function solve assetpath issue for including javascript and css files.
 
 
 ## License
