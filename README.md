@@ -1,6 +1,8 @@
 # CMB2 Field Type: Font Awesome
 #### Font Awesome Icon Selector for CMB2
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_shield)
+
 ## Description
 Font Awesome icon selector for powerful custom metabox generator [CMB2](https://github.com/WebDevStudios/CMB2 "Custom Metaboxes and Fields for WordPress 2")
 
@@ -22,7 +24,6 @@ composer require serkanalgur/cmb2-field-faiconselect
 
 ### ScreenShot
 ![Image](screenshot-1.png?raw=true)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_shield)
 
 ## Usage
 
