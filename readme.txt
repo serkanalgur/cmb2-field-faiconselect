@@ -1,11 +1,11 @@
 === CMB2 Field Type: Font Awesome ===
 Contributors: kaisercrazy
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=HFYQEQFUBJ2RE&lc=TR&item_name=Auto%20Attachments%20Donation&currency_code=TRY&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
+Donate link: https://paypal.me/serkanalgur
 Tags: font-awesome,cmb2,plugins,font awesome
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 3.6
-Tested up to: 4.9.3
+Tested up to: 5.2
 Stable tag: trunk
 
 Font Awesome icon selector for powerful custom metabox generator CMB2

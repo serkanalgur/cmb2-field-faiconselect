@@ -12,6 +12,14 @@ Plugin capable to use Font Awesome 4.7.0 or 5.7.2 (only Solid and Brands icons) 
 You can download this plugin also here : [CMB2 Field Type: Font Awesome](https://wordpress.org/plugins/cmb2-field-type-font-awesome/)
 or you can search as `CMB2 Field Type: Font Awesome` on your plugin install page.
 
+### Install via Composer
+This plugin available as [Composer Package](https://packagist.org/packages/serkanalgur/cmb2-field-faiconselect) and can be installed via Composer.
+
+```bash
+composer require serkanalgur/cmb2-field-faiconselect
+```
+
+
 ### ScreenShot
 ![Image](screenshot-1.png?raw=true)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_shield)
@@ -113,6 +121,10 @@ $cmb->add_field( array(
 As you can see we define an `options_cb` function named `returnRayFapsa`. This function create an array for options with `solid` and `brands` icons. Also you need `faver` attribute for Font Awesome 5.
 
 That's All for now :smile: Contributions are welcome
+
+You can donate me via;
+
+Paypal : https://paypal.me/serkanalgur
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fserkanalgur%2Fcmb2-field-faiconselect?ref=badge_large)
