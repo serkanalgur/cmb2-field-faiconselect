@@ -5,7 +5,7 @@ Plugin Name: CMB2 Field Type: Font Awesome
 Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 GitHub Plugin URI: https://github.com/serkanalgur/cmb2-field-faiconselect
 Description: Font Awesome icon selector for CMB2
-Version: 1.3-beta
+Version: 1.4
 Author: Serkan Algur
 Author URI: https://wpadami.com/
 License: GPLv3
@@ -18,7 +18,7 @@ License: GPLv3
 class CMBS_SerkanA_Plugin_IConSelectFA {
 
 
-	const VERSION = '1.3-beta';
+	const VERSION = '1.4';
 
 	public function __construct() {
 		add_filter( 'cmb2_render_faiconselect', array( $this, 'render_faiconselect' ), 10, 5 );
