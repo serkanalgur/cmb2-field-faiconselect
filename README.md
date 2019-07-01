@@ -20,9 +20,8 @@ This plugin available as [Composer Package](https://packagist.org/packages/serka
 ```bash
 composer require serkanalgur/cmb2-field-faiconselect
 ```
-
-
 ### ScreenShot
+
 ![Image](screenshot-1.png?raw=true)
 
 ## Usage
